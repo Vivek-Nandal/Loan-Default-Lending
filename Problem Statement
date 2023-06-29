@@ -1,4 +1,4 @@
-You work for a consumer finance company that specialises in providing various types of loans to urban customers. When the company receives a loan application, it has to decide whether to approve or reject it based on the applicant’s profile. Two types of risks are associated with the bank’s decision:
+You work for a consumer finance company that specializes in providing various types of loans to urban customers. When the company receives a loan application, it has to decide whether to approve or reject it based on the applicant’s profile. Two types of risks are associated with the bank’s decision:
 
 If the applicant is likely to repay the loan, then not approving the loan results in a loss of business to the company.
 
@@ -6,11 +6,11 @@ If the applicant is not likely to repay the loan, i.e., they are likely to defau
 
  
 
-The data given below contains information about past loan applicants and whether they ‘defaulted’. The aim is to identify patterns indicating that a person is likely to default, which may be used to deny the loan, reduce the loan amount, lend (to risky applicants) at a higher interest rate, etc.
+The data below contains information about past loan applicants and whether they defaulted. The aim is to identify patterns indicating that a person is likely to default, which may be used to deny the loan, reduce the loan amount, lend (to risky applicants) at a higher interest rate, etc.
 
  
 
-In this case study, you will use EDA to understand how consumer attributes and loan attributes influence the tendency of defaulting.
+In this case study, you will use EDA to understand how consumer attributes and loan attributes influence the tendency of default.
 
 The following image depicts the decisions that could be undertaken by the firm.
 
@@ -21,8 +21,8 @@ When a person applies for a loan, there are two types of decisions that could be
 Loan accepted: If the company approves the loan, there are three possible scenarios, as described below:
 
 Fully paid: The applicant has fully paid the loan (the principal and the interest amount).
-Current: The applicant is in the process of paying the instalments, i.e., the tenure of the loan is not yet completed. These candidates are not labelled as ‘defaulted’.
-Charged-off: The applicant has not paid the instalments in due time for a long period, i.e., they have defaulted on the loan.
+Current: The applicant is in the process of paying the installments, i.e., the loan tenure is not yet completed. These candidates are not labeled as ‘defaulted’.
+Charged-off: The applicant has not paid the installments in due time for a long period, i.e., they have defaulted on the loan.
 Loan rejected: The company had rejected the loan (because the candidate does not meet their requirements, etc.). Since the loan was rejected, there is no transactional history of those applicants with the company; so, this data is not available with the company (and thus, in this data set).
 Business Objectives
 This company is the largest online loan marketplace facilitating personal loans, business loans, and the financing of medical procedures. Borrowers can easily access lower interest rate loans through a fast online interface.
